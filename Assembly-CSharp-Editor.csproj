@@ -48,6 +48,7 @@
      <Compile Include="Assets\Core\Scripts\Editor\EndlessMenu.cs" />
      <Compile Include="Assets\Core\Scripts\Editor\TerrainEditor.cs" />
      <None Include="Assets\RentepuntShader.shader" />
+     <None Include="Assets\Resources\Shaders\VertexColorUnlit.shader" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

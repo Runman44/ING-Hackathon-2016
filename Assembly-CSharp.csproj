@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\RentepuntPickup.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <None Include="Assets\RentepuntShader.shader" />
+     <None Include="Assets\Resources\Shaders\VertexColorUnlit.shader" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
