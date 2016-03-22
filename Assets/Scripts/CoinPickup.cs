@@ -12,9 +12,10 @@ public class CoinPickup : MonoBehaviour {
         if (terrainDisplayer != null && terrainDisplayer.PrefabManager != null && terrainDisplayer.PrefabManager.Pool != null)
         {
             terrainDisplayer.PrefabManager.Pool.Remove(this.gameObject);
+
+			CoinManager.Instance.creditCount = CoinManager.Instance.creditCount + 1; 
+		
         }
-        
-  
     }
 
 }
