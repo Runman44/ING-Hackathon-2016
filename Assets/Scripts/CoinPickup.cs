@@ -19,6 +19,10 @@ public class CoinPickup : MonoBehaviour {
 
 	public void updateScore() {
 		GameObject.Find("Score Text").GetComponent<GUIText>().text = "Coins: " + CoinManager.Instance.creditCount;
+
+		TimeManager.Instance.time = TimeManager.Instance.time + 1;
+
+		//GameObject.Find ("Time Text").GetComponent<GUIText> ().text = "Time: " + TimeManager.Instance.time;
 	}
 
 }
