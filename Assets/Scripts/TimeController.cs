@@ -14,7 +14,6 @@ public class TimeController : MonoBehaviour
 	public Text timerText;
 
 	void Start() {
-//		StartCoroutine()
 	}
 
 	void Update () {

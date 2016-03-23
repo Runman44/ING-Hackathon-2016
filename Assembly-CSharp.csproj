@@ -3,9 +3,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
     <ProjectGuid>{1DA38D31-6799-67C5-6D01-875480508F37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -34,107 +33,108 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+      <HintPath>..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Core\Scripts\Extensions.cs" />
-     <Compile Include="Assets\Core\Scripts\MeshPiece.cs" />
-     <Compile Include="Assets\Core\Scripts\PrefabManager.cs" />
-     <Compile Include="Assets\Core\Scripts\PrefabPool.cs" />
-     <Compile Include="Assets\Core\Scripts\PrefabRule.cs" />
-     <Compile Include="Assets\Core\Scripts\RenderQueue.cs" />
-     <Compile Include="Assets\Core\Scripts\Settings.cs" />
-     <Compile Include="Assets\Core\Scripts\TerrainDisplayer.cs" />
-     <Compile Include="Assets\Core\Scripts\TerrainManager.cs" />
-     <Compile Include="Assets\Core\Scripts\TerrainPiece.cs" />
-     <Compile Include="Assets\Core\Scripts\TerrainPool.cs" />
-     <Compile Include="Assets\Core\Scripts\TerrainRule.cs" />
-     <Compile Include="Assets\Core\Scripts\TransformHelpers.cs" />
-     <Compile Include="Assets\Core\Scripts\VertexGenerator.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\DeserializeAsAttribute.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\DotNetXmlDeserializer.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\IDeserializer.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\JsonDeserializer.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\XmlAttributeDeserializer.cs" />
-     <Compile Include="Assets\RestSharp\Deserializers\XmlDeserializer.cs" />
-     <Compile Include="Assets\RestSharp\Enum.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\MiscExtensions.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\MonoHttp\Helpers.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\MonoHttp\HtmlEncoder.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\MonoHttp\HttpUtility.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\ReflectionExtensions.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\ResponseExtensions.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\StringExtensions.cs" />
-     <Compile Include="Assets\RestSharp\Extensions\XmlExtensions.cs" />
-     <Compile Include="Assets\RestSharp\FileParameter.cs" />
-     <Compile Include="Assets\RestSharp\Http.Async.cs" />
-     <Compile Include="Assets\RestSharp\Http.cs" />
-     <Compile Include="Assets\RestSharp\HttpCookie.cs" />
-     <Compile Include="Assets\RestSharp\HttpFile.cs" />
-     <Compile Include="Assets\RestSharp\HttpHeader.cs" />
-     <Compile Include="Assets\RestSharp\HttpParameter.cs" />
-     <Compile Include="Assets\RestSharp\HttpResponse.cs" />
-     <Compile Include="Assets\RestSharp\IHttp.cs" />
-     <Compile Include="Assets\RestSharp\IHttpFactory.cs" />
-     <Compile Include="Assets\RestSharp\IHttpResponse.cs" />
-     <Compile Include="Assets\RestSharp\IRestClient.cs" />
-     <Compile Include="Assets\RestSharp\IRestRequest.cs" />
-     <Compile Include="Assets\RestSharp\IRestResponse.cs" />
-     <Compile Include="Assets\RestSharp\Parameter.cs" />
-     <Compile Include="Assets\RestSharp\RestClient.Async.cs" />
-     <Compile Include="Assets\RestSharp\RestClient.cs" />
-     <Compile Include="Assets\RestSharp\RestClientExtensions.cs" />
-     <Compile Include="Assets\RestSharp\RestRequest.cs" />
-     <Compile Include="Assets\RestSharp\RestRequestAsyncHandle.cs" />
-     <Compile Include="Assets\RestSharp\RestResponse.cs" />
-     <Compile Include="Assets\RestSharp\RestResponseCookie.cs" />
-     <Compile Include="Assets\RestSharp\Serializers\DotNetXmlSerializer.cs" />
-     <Compile Include="Assets\RestSharp\Serializers\ISerializer.cs" />
-     <Compile Include="Assets\RestSharp\Serializers\JsonSerializer.cs" />
-     <Compile Include="Assets\RestSharp\Serializers\SerializeAsAttribute.cs" />
-     <Compile Include="Assets\RestSharp\Serializers\XmlSerializer.cs" />
-     <Compile Include="Assets\RestSharp\SharedAssemblyInfo.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\JsonDeserializerUniversal.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\JsonSerializerUniversal.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\RestClientExtensions.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\RestClientUniversal.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\RestRequestAsyncHandleUniversal.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\RestRequestUniversal.cs" />
-     <Compile Include="Assets\RestSharp\UniversalApps\RestResponseUniversal.cs" />
-     <Compile Include="Assets\RestSharp\Validation\Require.cs" />
-     <Compile Include="Assets\RestSharp\Validation\Validate.cs" />
-     <Compile Include="Assets\Scripts\AnimalManager.cs" />
-     <Compile Include="Assets\Scripts\AnimalPickup.cs" />
-     <Compile Include="Assets\Scripts\ChaseCamera.cs" />
-     <Compile Include="Assets\Scripts\CoinManager.cs" />
-     <Compile Include="Assets\Scripts\CoinPickup.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\RentepuntManager.cs" />
-     <Compile Include="Assets\Scripts\RentepuntPickup.cs" />
-     <Compile Include="Assets\Scripts\Singleton.cs" />
-     <Compile Include="Assets\Scripts\TimeController.cs" />
-     <Compile Include="Assets\Scripts\TimeManager.cs" />
-     <Compile Include="Assets\Scripts\fadeToBlack.cs" />
-     <None Include="Assets\RentepuntShader.shader" />
-     <None Include="Assets\Resources\Shaders\VertexColorUnlit.shader" />
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.JsonFx">
- <HintPath>/Users/MrAnderson1/Desktop/HackATon2016/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Core\Scripts\Extensions.cs" />
+    <Compile Include="Assets\Core\Scripts\MeshPiece.cs" />
+    <Compile Include="Assets\Core\Scripts\PrefabManager.cs" />
+    <Compile Include="Assets\Core\Scripts\PrefabPool.cs" />
+    <Compile Include="Assets\Core\Scripts\PrefabRule.cs" />
+    <Compile Include="Assets\Core\Scripts\RenderQueue.cs" />
+    <Compile Include="Assets\Core\Scripts\Settings.cs" />
+    <Compile Include="Assets\Core\Scripts\TerrainDisplayer.cs" />
+    <Compile Include="Assets\Core\Scripts\TerrainManager.cs" />
+    <Compile Include="Assets\Core\Scripts\TerrainPiece.cs" />
+    <Compile Include="Assets\Core\Scripts\TerrainPool.cs" />
+    <Compile Include="Assets\Core\Scripts\TerrainRule.cs" />
+    <Compile Include="Assets\Core\Scripts\TransformHelpers.cs" />
+    <Compile Include="Assets\Core\Scripts\VertexGenerator.cs" />
+    <Compile Include="Assets\RentePuntenController.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\DeserializeAsAttribute.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\DotNetXmlDeserializer.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\IDeserializer.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\JsonDeserializer.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\XmlAttributeDeserializer.cs" />
+    <Compile Include="Assets\RestSharp\Deserializers\XmlDeserializer.cs" />
+    <Compile Include="Assets\RestSharp\Enum.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\MiscExtensions.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\MonoHttp\Helpers.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\MonoHttp\HtmlEncoder.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\MonoHttp\HttpUtility.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\ResponseExtensions.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\RestSharp\Extensions\XmlExtensions.cs" />
+    <Compile Include="Assets\RestSharp\FileParameter.cs" />
+    <Compile Include="Assets\RestSharp\Http.Async.cs" />
+    <Compile Include="Assets\RestSharp\Http.cs" />
+    <Compile Include="Assets\RestSharp\HttpCookie.cs" />
+    <Compile Include="Assets\RestSharp\HttpFile.cs" />
+    <Compile Include="Assets\RestSharp\HttpHeader.cs" />
+    <Compile Include="Assets\RestSharp\HttpParameter.cs" />
+    <Compile Include="Assets\RestSharp\HttpResponse.cs" />
+    <Compile Include="Assets\RestSharp\IHttp.cs" />
+    <Compile Include="Assets\RestSharp\IHttpFactory.cs" />
+    <Compile Include="Assets\RestSharp\IHttpResponse.cs" />
+    <Compile Include="Assets\RestSharp\IRestClient.cs" />
+    <Compile Include="Assets\RestSharp\IRestRequest.cs" />
+    <Compile Include="Assets\RestSharp\IRestResponse.cs" />
+    <Compile Include="Assets\RestSharp\Parameter.cs" />
+    <Compile Include="Assets\RestSharp\RestClient.Async.cs" />
+    <Compile Include="Assets\RestSharp\RestClient.cs" />
+    <Compile Include="Assets\RestSharp\RestClientExtensions.cs" />
+    <Compile Include="Assets\RestSharp\RestRequest.cs" />
+    <Compile Include="Assets\RestSharp\RestRequestAsyncHandle.cs" />
+    <Compile Include="Assets\RestSharp\RestResponse.cs" />
+    <Compile Include="Assets\RestSharp\RestResponseCookie.cs" />
+    <Compile Include="Assets\RestSharp\Serializers\DotNetXmlSerializer.cs" />
+    <Compile Include="Assets\RestSharp\Serializers\ISerializer.cs" />
+    <Compile Include="Assets\RestSharp\Serializers\JsonSerializer.cs" />
+    <Compile Include="Assets\RestSharp\Serializers\SerializeAsAttribute.cs" />
+    <Compile Include="Assets\RestSharp\Serializers\XmlSerializer.cs" />
+    <Compile Include="Assets\RestSharp\SharedAssemblyInfo.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\JsonDeserializerUniversal.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\JsonSerializerUniversal.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\RestClientExtensions.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\RestClientUniversal.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\RestRequestAsyncHandleUniversal.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\RestRequestUniversal.cs" />
+    <Compile Include="Assets\RestSharp\UniversalApps\RestResponseUniversal.cs" />
+    <Compile Include="Assets\RestSharp\Validation\Require.cs" />
+    <Compile Include="Assets\RestSharp\Validation\Validate.cs" />
+    <Compile Include="Assets\Scripts\AnimalManager.cs" />
+    <Compile Include="Assets\Scripts\AnimalPickup.cs" />
+    <Compile Include="Assets\Scripts\ChaseCamera.cs" />
+    <Compile Include="Assets\Scripts\CoinManager.cs" />
+    <Compile Include="Assets\Scripts\CoinPickup.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\RentepuntManager.cs" />
+    <Compile Include="Assets\Scripts\RentepuntPickup.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\TimeController.cs" />
+    <Compile Include="Assets\Scripts\TimeManager.cs" />
+    <Compile Include="Assets\Scripts\fadeToBlack.cs" />
+    <None Include="Assets\RentepuntShader.shader" />
+    <None Include="Assets\Resources\Shaders\VertexColorUnlit.shader" />
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.JsonFx">
+      <HintPath>Assets\Plugins\Pathfinding.JsonFx.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -144,5 +144,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
