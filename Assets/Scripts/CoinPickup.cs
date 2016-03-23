@@ -4,6 +4,10 @@ using Endless2DTerrain;
 
 public class CoinPickup : MonoBehaviour {
 
+	void Start(){
+		GameObject.Find("Score Text").GetComponent<GUIText>().text = "Coins: 0";
+	}
+
 	void OnTriggerEnter(Collider item)
 	{
 		//Assume only one terrain displayer at a time
