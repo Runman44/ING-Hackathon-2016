@@ -13,6 +13,8 @@ public class AnimalPickup : MonoBehaviour {
             terrainDisplayer.PrefabManager.Pool.Remove(this.gameObject);
 
         }
-    }
+		Debug.Log ("BIEOEMM");
+	
+	}
 
 }

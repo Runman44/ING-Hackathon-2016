@@ -8,10 +8,9 @@ public class AnimalCrashSound : MonoBehaviour {
 
 	void Start() {
 		audio = GetComponent<AudioSource>();
-		audio.PlayOneShot(impact, 0.7F);
 	}
-
-	void OnCollisionEnter() {
+	void OnCollisionEnter2D(Collision2D coll) {
+		Debug.Log ("crash");
 		audio.PlayOneShot(impact, 0.7F);
 	}
 }

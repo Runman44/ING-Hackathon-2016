@@ -14,6 +14,7 @@ public class CoinPickup : MonoBehaviour {
 
 			CoinManager.Instance.creditCount = CoinManager.Instance.creditCount + 1;
 			updateScore();
+			Debug.Log ("crash2222");
 		}
 	}
 
@@ -24,5 +25,4 @@ public class CoinPickup : MonoBehaviour {
 
 		//GameObject.Find ("Time Text").GetComponent<GUIText> ().text = "Time: " + TimeManager.Instance.time;
 	}
-
 }
