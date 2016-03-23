@@ -59,7 +59,6 @@
      <Compile Include="Assets\Core\Scripts\TerrainRule.cs" />
      <Compile Include="Assets\Core\Scripts\TransformHelpers.cs" />
      <Compile Include="Assets\Core\Scripts\VertexGenerator.cs" />
-     <Compile Include="Assets\RentePuntenController.cs" />
      <Compile Include="Assets\RestSharp\Deserializers\DeserializeAsAttribute.cs" />
      <Compile Include="Assets\RestSharp\Deserializers\DotNetXmlDeserializer.cs" />
      <Compile Include="Assets\RestSharp\Deserializers\IDeserializer.cs" />
@@ -119,6 +118,7 @@
      <Compile Include="Assets\Scripts\CoinPickup.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\RentePuntenController.cs" />
      <Compile Include="Assets\Scripts\RentepuntManager.cs" />
      <Compile Include="Assets\Scripts\RentepuntPickup.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
