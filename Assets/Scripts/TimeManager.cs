@@ -3,7 +3,7 @@
 public class TimeManager : Singleton<TimeManager> {
 	protected TimeManager () {} 
 
-	public float time = 5f;
+	public float time = 100f;
 }
 
 
