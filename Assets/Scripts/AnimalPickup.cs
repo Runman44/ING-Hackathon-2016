@@ -10,7 +10,7 @@ public class AnimalPickup : MonoBehaviour {
         var terrainDisplayer = GameObject.FindObjectOfType(typeof(TerrainDisplayer)) as TerrainDisplayer;        
         if (terrainDisplayer != null && terrainDisplayer.PrefabManager != null && terrainDisplayer.PrefabManager.Pool != null)
         {
-            terrainDisplayer.PrefabManager.Pool.Remove(this.gameObject);
+            //terrainDisplayer.PrefabManager.Pool.Remove(this.gameObject);
 
         }
 		Debug.Log ("BIEOEMM");
