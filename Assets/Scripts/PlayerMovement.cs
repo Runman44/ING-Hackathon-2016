@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 			request.AddHeader("postman-token", "7b74e804-b47c-0c4f-f262-0183a95da065");
 			request.AddHeader("cache-control", "no-cache");
 			request.AddHeader("content-type", "application/json");
-			request.AddParameter("application/json", "{ \"name\": \"Go Fuck yourself ! \",    \"points\": \"100\",    \"rentepunten\": \"69\"}", ParameterType.RequestBody);
+			request.AddParameter("application/json", "{ \"name\": " + SystemInfo.deviceUniqueIdentifier + ",    \"points\": " + CoinManager.Instance.creditCount +",    \"rentepunten\": "+ RentepuntManager.Instance.creditCount +"}", ParameterType.RequestBody);
 			client.ExecuteAsync(request, response2 => {
 				Console.WriteLine(response2.Content);
 			});
