@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 moveDirection.y = jumpSpeed; 
             }
-            if (Input.touchCount > 0)
+            if (Input.touchCount == 1)
             {
                 moveDirection.y = jumpSpeed;
             }
