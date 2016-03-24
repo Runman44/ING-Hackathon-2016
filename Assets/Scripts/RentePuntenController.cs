@@ -10,6 +10,6 @@ public class RentePuntenController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		GameObject.Find ("RentePunten Text").GetComponent<GUIText> ().text = "Rentepunten: " + RentepuntManager.Instance.creditCount;
+		GameObject.Find ("RentePunten Text").GetComponent<GUIText> ().text = "Packages: " + RentepuntManager.Instance.creditCount;
 	}
 }
