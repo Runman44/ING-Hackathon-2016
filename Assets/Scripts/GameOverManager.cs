@@ -15,7 +15,7 @@ public class GameOverManager : MonoBehaviour {
 	}
 
 	public void onRestart(){
-		if(TimeManager.Instance.time == 0){
+		if(TimeManager.Instance.time <= 0){
 		CoinManager.Instance.creditCount = 0;
 		RentepuntManager.Instance.creditCount = 0;
 		TimeManager.Instance.time = 100;
@@ -25,7 +25,7 @@ public class GameOverManager : MonoBehaviour {
 	}
 
 	public void onStop(){
-		if(TimeManager.Instance.time == 0){
+		if(TimeManager.Instance.time <= 0){
 		Application.Quit();
 		}
 	}
