@@ -15,6 +15,8 @@
 + Rene      Developer
 + Gilles    Developer
 
+![Group](https://github.com/Runman44/hackaton2016/blob/master/Screenshots/group_photo.jpeg "Group Photo")
+
 ## Project: FlyING Lion
 
 ![Compilation](https://github.com/Runman44/hackaton2016/blob/master/Screenshots/cute_compilation_extra.png "Compilation")
