@@ -35,7 +35,7 @@ public class GameOverManager : MonoBehaviour {
 			anim.SetTrigger ("GameOver");
 
 
-			GameObject.Find ("Rentepunten").GetComponent<Text>().text = "Rentepunten: " + RentepuntManager.Instance.creditCount;
+			GameObject.Find ("Rentepunten").GetComponent<Text>().text = "Packages: " + RentepuntManager.Instance.creditCount;
 			GameObject.Find ("CoinsPunten").GetComponent<Text>().text = "Coins: " + CoinManager.Instance.creditCount;
 		}
 	}
