@@ -36,6 +36,11 @@ For this game we defined a set of rules. How will the lion die, how will the lio
 + The player can keep alive by collection coins. Each coin is worth 1 second of time. 
 + The player should collect as many packages as possible. The player with the most packages collected in a game wins.
 
+#### How to install
+
+Open the APK folder and set the .apk file on your phone. 
+Open the .apk file on your phone and the installation will begin.
+
 ### Video
 
 [![Movie Hackathon](http://img.youtube.com/vi/lgOh_hUn90Y/0.jpg)](https://www.youtube.com/watch?v=lgOh_hUn90Y)
